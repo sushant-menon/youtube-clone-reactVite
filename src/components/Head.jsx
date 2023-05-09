@@ -77,8 +77,8 @@ const Head = () => {
   };
 
   return (
-    <div className="flex justify-between items-center p-5 shadow-lg w-screen container">
-      <div className="flex col-span-1 w-screen">
+    <div className="flex justify-between items-center p-5 shadow-xl w-screen">
+      <div className="flex col-span-1">
         <img
           onClick={() => toggleMenuHandler()}
           className="h-8 cursor-pointer hover:bg-gray-300 hover:rounded-full hover:p-1"
