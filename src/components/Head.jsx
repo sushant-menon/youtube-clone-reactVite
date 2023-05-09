@@ -77,7 +77,7 @@ const Head = () => {
   };
 
   return (
-    <div className="flex justify-between items-center p-4 shadow-lg">
+    <div className="flex justify-between items-center p-4 shadow-lg w-full">
       <div className="flex col-span-1">
         <img
           onClick={() => toggleMenuHandler()}
@@ -94,7 +94,7 @@ const Head = () => {
       </div>
       <div className="col-span-3">
         <div className="col-span-10 px-5 md:px-10 items-center justify-between">
-          <div className="flex">
+          <div className="flex w-44 justify-between">
             <input
               type="text"
               placeholder="search..."
