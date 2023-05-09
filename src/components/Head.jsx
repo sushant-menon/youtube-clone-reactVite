@@ -94,7 +94,7 @@ const Head = () => {
       </div>
       <div className="col-span-3">
         <div className="col-span-10 px-5 md:px-10 items-center justify-between">
-          <div>
+          <div className="flex">
             <input
               type="text"
               placeholder="search..."
@@ -103,10 +103,10 @@ const Head = () => {
                 setSearchQuery(e.target.value);
               }}
               onFocus={() => setShowSuggestions(true)}
-              className=" border border-gray-400 p-2 rounded-l-full md:w-[600px] placeholder:text-lg placeholder:text-gray-400 w-[150px] focus:border-blue-800 focus:border-2 md:focus:w-[700px] outline-none"
+              className=" border border-gray-400 p-2 rounded-l-full md:w-[600px] placeholder:text-lg placeholder:text-gray-400 w-[120px] focus:border-blue-800 focus:border-2 md:focus:w-[700px] outline-none"
             />
             <Link key={"id" + searchQuery} to={"/search?q=" + searchQuery}>
-              <button className="border border-gray-700 px-3 p-2 rounded-r-full bg-gray-500 ">
+              <button className="border border-gray-700 px-3 p-2 rounded-r-full bg-gray-500 w-16 md:w-24">
                 Search
               </button>
             </Link>
