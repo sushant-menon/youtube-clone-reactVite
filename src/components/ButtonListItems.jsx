@@ -11,10 +11,10 @@ export const list = [
     id: 3,
     name: "Songs",
   },
-  //   {
-  //     id: 4,
-  //     name: "Live",
-  //   },
+  {
+    id: 4,
+    name: "Live",
+  },
   //   {
   //     id: 5,
   //     name: "Football",
@@ -23,10 +23,10 @@ export const list = [
   //     id: 6,
   //     name: "Cricket",
   //   },
-  //   {
-  //     id: 7,
-  //     name: "News",
-  //   },
+  {
+    id: 7,
+    name: "News",
+  },
   //   {
   //     id: 8,
   //     name: "Ishowspeed",
