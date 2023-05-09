@@ -23,10 +23,10 @@ export const list = [
   //     id: 6,
   //     name: "Cricket",
   //   },
-  {
-    id: 7,
-    name: "News",
-  },
+  //   {
+  //     id: 7,
+  //     name: "News",
+  //   },
   //   {
   //     id: 8,
   //     name: "Ishowspeed",
