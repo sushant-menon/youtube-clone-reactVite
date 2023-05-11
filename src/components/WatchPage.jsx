@@ -163,20 +163,20 @@ const WatchPage = () => {
         <div className="flex flex-col md:flex-row md:justify-between">
           <span className="flex flex-col">
             <iframe
-              className=" h-[250px] md:w-[900px] md:h-[550px] mx-2"
+              className=" h-[250px] md:w-[900px] md:h-[550px] mx-2 md:mx-0"
               src={"https://www.youtube.com/embed/" + vidId + "?autoplay=1"}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-            <div className="mx-2">
+            <div className="mx-2 md:mx-0">
               <WatchPageDetails details={vidDetails} />
             </div>
-            <div className="md:w-[900px] mx-1">
+            <div className="md:w-[900px] mx-1 md:mx-0">
               <DescriptionDetails details={vidDetails} />
             </div>
-            <div className="md:w-[900px] rounded-xl border border-gray-600 bg-gray-400 mt-3 mx-1">
+            <div className="md:w-[900px] rounded-xl border border-gray-600 bg-gray-400 mt-3 mx-1 md:mx-0">
               <CommentsContainer details={vidDetails} />
             </div>
           </span>
