@@ -16,7 +16,7 @@ const VideoContainer = () => {
   };
 
   return (
-    <div className=" w-screen h-[79vh] scrollbar-thin scrollbar-thumb-[#ff0000] scrollbar-track-gray-100 scrollbar-thumb-rounded-md overflow-auto mx-2 mt-8 flex flex-wrap justify-around">
+    <div className="h-[79vh] scrollbar-thin scrollbar-thumb-[#ff0000] scrollbar-track-gray-100 scrollbar-thumb-rounded-md overflow-auto mx-1 mt-8 flex flex-wrap justify-around">
       {videos.map(video => (
         <Link key={video.id} to={"/watch?v=" + video.id}>
           <VideoCard info={video} />
