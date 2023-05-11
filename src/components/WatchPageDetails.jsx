@@ -49,7 +49,7 @@ const WatchPageDetails = ({ details }) => {
               <span>Subscribe</span>
             </div>
           </div>
-          <div className="flex flex-row mt-2 justify-evenly space-x-2 md:ml-16">
+          <div className="flex w-full flex-row mt-2 justify-evenly space-x-2 md:ml-16">
             <div className="bg-gray-300 px-5 py-2 rounded-full cursor-pointer hover:bg-gray-500 flex space-x-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ const WatchPageDetails = ({ details }) => {
               </svg>
               <span>Share</span>
             </div>
-            <div className="bg-gray-300 px-5 py-2 rounded-full cursor-pointer hover:bg-gray-500 flex space-x-2">
+            <div className="bg-gray-300 px-1 md:px-4 py-2 rounded-full cursor-pointer hover:bg-gray-500 flex space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"

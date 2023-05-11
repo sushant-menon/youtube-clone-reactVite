@@ -159,11 +159,11 @@ const WatchPage = () => {
 
   return (
     <>
-      <div className="mt-4 mx-4 md:mx-16 w-full h-[90vh] overflow-auto scrollbar-thin scrollbar-thumb-[#ff0000] scrollbar-track-gray-100 scrollbar-thumb-rounded-md">
+      <div className="mt-4 mx-1 md:mx-16 w-full h-3/4 overflow-auto scrollbar-thin scrollbar-thumb-[#ff0000] scrollbar-track-gray-100 scrollbar-thumb-rounded-md">
         <div className="flex flex-col md:flex-row md:justify-between">
           <span className="flex flex-col">
             <iframe
-              className="w-full h-[300px] md:w-[900px] md:h-[550px] rounded-lg"
+              className="w-full h-[250px] md:w-[900px] md:h-[550px]"
               src={"https://www.youtube.com/embed/" + vidId + "?autoplay=1"}
               title="YouTube video player"
               frameBorder="0"
