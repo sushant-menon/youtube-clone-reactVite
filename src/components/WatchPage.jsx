@@ -170,7 +170,7 @@ const WatchPage = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-            <div className="">
+            <div className="mx-2">
               <WatchPageDetails details={vidDetails} />
             </div>
             <div className="md:w-[900px]">
