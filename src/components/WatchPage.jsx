@@ -173,10 +173,10 @@ const WatchPage = () => {
             <div className="mx-2">
               <WatchPageDetails details={vidDetails} />
             </div>
-            <div className="md:w-[900px]">
+            <div className="md:w-[900px] mx-1">
               <DescriptionDetails details={vidDetails} />
             </div>
-            <div className="md:w-[900px] rounded-xl border border-gray-600 bg-gray-400 mt-3">
+            <div className="md:w-[900px] rounded-xl border border-gray-600 bg-gray-400 mt-3 mx-1">
               <CommentsContainer details={vidDetails} />
             </div>
           </span>
