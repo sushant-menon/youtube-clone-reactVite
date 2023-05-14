@@ -24,14 +24,14 @@ const SearchContainer = () => {
   };
 
   return !searchedVideo ? null : (
-    <div className="mt-10 px-10 w-full">
+    <div className="mt-10 mx-4 w-full">
       <div className="flex flex-col">
         <p className="text-black text-xl">
           You searched for
           <span className="font-bold text-2xl"> {searchQuery}</span>
         </p>
         <span className="border border-gray-300 w-full mt-2"></span>
-        <div className="mt-3">
+        <div className="mt-3 w-1/2">
           <p className="text-lg font-semibold">Latest from {searchQuery}</p>
           {searchedVideo.map((searchV, index) => {
             return (

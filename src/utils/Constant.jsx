@@ -14,4 +14,4 @@ export const YOUTUBE_SEARCHED_VIDEO_API =
   "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=";
 
 export const YOUTUBE_RELATED_VIDEO_API =
-  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=4&q=";
+  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=15&q=";

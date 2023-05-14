@@ -180,9 +180,9 @@ const WatchPage = () => {
               <CommentsContainer details={vidDetails} />
             </div>
           </span>
-          {/* <div className=" md:w-[600px] w-full mt-3 rounded-xl border border-gray-600">
+          <div className=" md:w-[600px] w-full mt-3 rounded-xl border border-gray-600">
             <SuggestedVideo information={vidDetails} />
-          </div> */}
+          </div>
         </div>
       </div>
     </>
