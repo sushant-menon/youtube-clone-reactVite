@@ -103,6 +103,7 @@ const Head = () => {
                 setSearchQuery(e.target.value);
               }}
               onFocus={() => setShowSuggestions(true)}
+              onBlur={() => setShowSuggestions(false)}
               className=" border border-gray-400 p-2 rounded-l-full md:w-[600px] placeholder:text-lg placeholder:text-gray-400 w-[100px] focus:border-blue-800 focus:border-2 md:focus:w-[700px] outline-none"
             />
             <Link key={"id" + searchQuery} to={"/search?q=" + searchQuery}>
